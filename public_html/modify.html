@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Crime records management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <script src="http://localhost:8383/crimeRecordsManagment/index.js"></script>
+    </head>
+
+    <body>
+
+        <div id = "main">
+            <div id ="top"> 
+                <div><img id = "logo" src="http://localhost:8383/crimeRecordsManagment/resources/logo.jpg"></div>
+                <div id="title"><h1>Welcome to crime records management system</h1> </div>
+            </div>
+            <div id ="menu">
+
+                <div id = "nav">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="view.html">View records</a>
+                        </li>
+                        <li>
+                            <a href="add.html">Add record</a>
+                        </li>
+                        <li>
+                            <span id="selected">Modify record</span>
+                        </li>
+                    </ul>                                
+                </div>
+                <div id = "body" >
+                    <div id="input">
+                        <h2>Modify record</h2>
+                        <div id ="form">
+                            <div class="input" id="crime">
+                                <div id ="des">Enter Criminal Id whose<br> record is to be modified</div>
+                                <div><input class= "crimeid" type="text" id="inputCriminalId"></div></div>
+                            <div class="input">Name<input type="text" id="inputName"></div>
+                            <div class="input">Age<input type="text" id="inputAge"></div>
+                            <div class="input">Contact<input type="text" id="inputContact"></div>
+                            <div class="input">Address<input type="text" id="inputAddress"></div>
+                            <div class="input">DOB<input type="text" id="inputDob"></div>
+                            <div class="input">Under Section<input type="text" id="inputSection"></div>
+                            <div><button id = "submit" type="submit" onClick="updateData();">Update</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="profile">
+                    <ul>
+                        <li>
+                            <img src="http://localhost:8383/crimeRecordsManagment/resources/profile.jpg" style="width:100px">
+                        </li>
+                        <li>
+                            Ramesh Singh
+                        </li>
+                        <li>
+                            SHO
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

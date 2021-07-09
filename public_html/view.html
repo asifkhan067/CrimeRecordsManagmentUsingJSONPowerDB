@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Crime records management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <script src="http://localhost:8383/crimeRecordsManagment/index.js"></script>
+    </head>
+
+    <body>
+
+        <div id = "main">
+            <div id ="top"> 
+                <div><img id = "logo" src="http://localhost:8383/crimeRecordsManagment/resources/logo.jpg"></div>
+                <div id="title"><h1>Welcome to crime records management system</h1> </div>
+            </div>
+            <div id ="menu">
+
+                <div id = "nav">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <span id="selected">View records</span>
+                        </li>
+                        <li>
+                            <a href="add.html">Add record</a>
+                        </li>
+                        <li>
+                            <a href="modify.html">Modify record</a>
+                        </li>
+                    </ul>                                
+                </div>
+                <div id = "body" >
+                    <div id="input">
+                        <input type="text" placeholder="Enter record number " id="criminalId" >
+                        <button type="submit" id = "showButton" onclick="showData()">Show record</button>
+                        <br><br><br>
+                        <table id = "record">
+                            <tr>
+                                <td>Criminal Id</td>
+                                <td id = "criminalid"></td>
+                            </tr>
+                            <tr>
+                                <td>Name</td>
+                                <td id = "name"></td>
+                            </tr>
+                            <tr>
+                                <td>Age</td>
+                                <td id = "age"></td>
+                            </tr>
+                            <tr>
+                                <td>Contact</td>
+                                <td id = "contact"></td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td id = "address"></td>
+                            </tr>
+                            <tr>
+                                <td>DOB</td>
+                                <td id = "dob"></td>
+                            </tr>
+                            <tr>
+                                <td>Under section</td>
+                                <td id = "undersection"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="profile">
+                    <ul>
+                        <li>
+                            <img src="http://localhost:8383/crimeRecordsManagment/resources/profile.jpg" style="width:100px">
+                        </li>
+                        <li>
+                            Ramesh Singh
+                        </li>
+                        <li>
+                            SHO
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

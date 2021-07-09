@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Jul-2021, 2:29:28 am
+    Author     : asifkhan
+*/
+
+body{
+    background-color: orange;
+    margin: 50px;
+}
+
+#main{
+    background-color: white;
+    height: 800px;
+    border-radius: 70px;
+    /*color : red;*/
+}
+
+#nav{
+    padding-top: 50px;
+    background-color: blue;
+    height: 550px;
+    width: 20%;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    float: left;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-bottom: 30px;
+    padding-left: 40px;
+    font-size: 5mm;
+    
+}
+li:hover{
+    color : white;
+}
+
+#top{
+    height: 200px;
+    
+}
+
+#logo{
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 100px;
+    float:left;
+}
+
+#selected{
+    color : white;
+}
+
+#title{
+    padding: 100px;
+    padding-left: 500px;
+    color : blue;
+}
+
+#body{
+    padding-top: 100px;
+    padding-left: 200px;
+    width: 1px;
+    float: left;
+    width: 60%;
+    font-size: 6mm;
+}
+
+#profile{
+    float:right;
+    border-left: solid 5px;
+    border-color: #cccccc;
+    width:20%;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+}
+
+#input{
+    align-items: center;
+    height: 40px;
+}
+
+#criminalId{
+    margin-right: 30px;
+    height: 30px;
+    background-color: #ffff66;
+    width:350px;
+    border-radius: 40px;
+    padding-left: 50px; 
+}
+
+#showButton{
+   height: 30px;
+}
+
+#note{
+    color:red;
+}
+
+table , td{
+    border:solid 2px gray;
+    border-collapse: collapse;
+}
+
+td{
+    padding:10px;
+    width: 250px;
+}
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#inputAddress{
+    margin-left: 155px;
+}
+
+#inputContact{
+    margin-left: 160px;
+}
+
+#inputAge{
+    margin-left:192px;
+}
+
+#inputCriminalId{
+    margin-left: 125px;
+}
+
+#inputName{
+  margin-left: 175px;
+}
+
+#inputDob{
+    margin-left: 182px;
+}
+
+#inputSection{
+    margin-left: 100px;
+}
+
+.input{
+    padding-top:20px;
+}
+
+#submit{
+    margin-top: 30px;
+    margin-left: 300px;; 
+}
+
+.crimeid{
+    padding-top: 10px;
+    height: 40px;
+    font-size: 7mm;
+    width: 100px;;
+    
+}
+
+#crime{
+    align-items: center;
+}
+
+#des{
+    float: left;
+}
